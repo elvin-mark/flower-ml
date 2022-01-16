@@ -20,6 +20,7 @@ with open("data/flower_labels.pkl", "rb") as f:
 
 model = flower_model().to(dev)
 model.load_state_dict(torch.load("model/flowers_cnn.ckpt", map_location=dev))
+model.eval()
 
 test_transform = torchvision.transforms.Compose([
     torchvision.transforms.Resize((112, 112)),
