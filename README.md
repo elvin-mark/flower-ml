@@ -8,7 +8,7 @@ Start by running the server
 python server.py
 ```
 
-Then you can open the web app on the browser by going to [this link](localhost:5000).
+Then you can open the web app on the browser by going to [this link](https://localhost:5000).
 
 (Optional)
 You can also use the app outside your local network by using ngrok
