@@ -35,7 +35,7 @@ function SearchPane() {
           <Grid item xs={6}>
             <Stack justifyContent={"center"}>
               <WebCam
-                styke={{ width: "100%" }}
+                style={{ width: "100%" }}
                 audio={false}
                 height={400}
                 ref={webcamRef}
