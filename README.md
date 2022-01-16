@@ -15,3 +15,5 @@ You can also use the app outside your local network by using ngrok
 ```
 ngrok http 5000
 ```
+
+![flower_seach](samples/flower_search.png?raw=true "Flower Search")
